@@ -105,14 +105,14 @@ public class Consumer {
                     fromBeginning = true;
                     break;
                 case "--schema":
-                    if (i > args.length - 1) {
+                    if (i >= args.length - 1) {
                         System.out.println("--schema needs parameter!");
                         System.exit(0);
                     }
                     schema = args[++i].toUpperCase();
                     break;
                 case "--consumer-file-path":
-                    if (i > args.length - 1) {
+                    if (i >= args.length - 1) {
                         System.out.println("--consumer-file-path needs parameter!");
                         System.exit(0);
                     }
