@@ -175,7 +175,6 @@ public class TableChangeStruct {
 
     public static class Table {
         private List<String> primaryKeyColumnNames;
-        private List<String> primaryConstraintName = new ArrayList<>();
         private List<PrimaryKeyColumnChange> primaryKeyColumnChanges = new ArrayList<>();
         private List<UniqueColumn> uniqueColumns = new ArrayList<>();
         private List<CheckColumn> checkColumns = new ArrayList<>();
